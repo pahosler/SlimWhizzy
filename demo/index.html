@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>SlimWhizzy Demo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"></link>
+</head>
+<body>
+    <h1 class="heading">SlimWhizzy</h1>
+    <div class="container">
+        <div class="toolbar">
+            <button href="#" data-command="bold" class="toolbar-button">
+                <i class="fa fa-bold"></i>
+            </button>
+            <button href="#" data-command="italic" class="toolbar-button">
+                <i class="fa fa-italic"></i>
+            </button>
+            <button href="#" data-command="underline" class="toolbar-button">
+                <i class="fa fa-underline"></i>
+            </button>
+            <button href="#" data-command="strikethrough" class="toolbar-button">
+                <i class="fa fa-strikethrough"></i>
+            </button>
+            <button href="#" data-command="justifyLeft" class="toolbar-button">
+                <i class="fa fa-align-left"></i>
+            </button>
+            <button href="#" data-command="justifyCenter" class="toolbar-button">
+                <i class="fa fa-align-center"></i>
+            </button>
+            <button href="#" data-command="justifyFull" class="toolbar-button">
+                <i class="fa fa-align-justify"></i>
+            </button>
+            <button href="#" data-command="justifyRight" class="toolbar-button">
+                <i class="fa fa-align-right"></i>
+            </button>
+            <button href="#" data-command="h1" class="toolbar-button">
+                <strong>H1</strong>
+            </button>
+            <button href="#" data-command="h2" class="toolbar-button">
+                <strong>H2</strong>
+            </button>
+            <button href="#" data-command="p" class="toolbar-button">
+                <strong>P</strong>
+            </button>
+            <button href="#" data-command="insertorderedlist" class="toolbar-button">
+                <i class="fa fa-list-ol"></i>
+            </button>
+            <button href="#" data-command="insertUnorderedList" class="toolbar-button">
+                <i class="fa fa-list-ul"></i>
+            </button>
+            <button href="#" data-command="createlink" class="toolbar-button">
+                <i class="fa fa-link"></i>
+            </button>
+            <button href="#" data-command="unlink" class="toolbar-button">
+                <i class="fa fa-unlink"></i>
+            </button>
+            <button href="#" data-command="subscript" class="toolbar-button">
+                <i class="fa fa-subscript"></i>
+            </button>
+            <button href="#" data-command="superscript" class="toolbar-button">
+                <i class="fa fa-superscript"></i>
+            </button>
+            <button href="#" data-command="indent" class="toolbar-button">
+                <i class="fa fa-indent"></i>
+            </button>
+            <button href="#" data-command="outdent" class="toolbar-button">
+                <i class="fa fa-outdent"></i>
+            </button>
+            <button href="#" data-command="insertimage" class="toolbar-button">
+                <i class="fa fa-image"></i>
+            </button>
+        </div>
+        <div id="editor" contenteditable>
+            This is a demo of an editor built using SlimWhizzy.
+        </div>
+    </div>
+    <script src="SlimWhizzy.js"></script>
+    <script>
+    SlimWhizzy({
+        editorSelector: '#editor',
+        btnClass: '.toolbar-button'
+    })
+    </script>
+
+</body>
+</html>

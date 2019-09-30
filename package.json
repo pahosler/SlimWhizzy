@@ -1,0 +1,48 @@
+{
+  "_from": "slimwhizzy",
+  "_id": "slimwhizzy@0.2.1",
+  "_inBundle": false,
+  "_integrity": "sha512-LknAuxPtovlKhGxplq2I73k5Jo0jWsT5p8BwGULYdeH16FOrlLEnmKi+A7HHlF8Lw14zry4gg3OhcaA1+kcuww==",
+  "_location": "/slimwhizzy",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "slimwhizzy",
+    "name": "slimwhizzy",
+    "escapedName": "slimwhizzy",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/slimwhizzy/-/slimwhizzy-0.2.1.tgz",
+  "_shasum": "b9808dd4e3e9ad3a16dd3af6a3ff75a61f4e11e1",
+  "_spec": "slimwhizzy",
+  "_where": "/Users/jody/Projects",
+  "author": {
+    "name": "Jody LeCompte",
+    "email": "jody@jodylecompte.com"
+  },
+  "bugs": {
+    "url": "https://github.com/jodylecompte/SlimWhizzy/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A light-weight and depedency free WYSIWYG editor ",
+  "homepage": "https://github.com/jodylecompte/SlimWhizzy#readme",
+  "license": "MIT",
+  "main": "SlimWhizzy.js",
+  "name": "slimwhizzy",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodylecompte/SlimWhizzy.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.2.1"
+}
