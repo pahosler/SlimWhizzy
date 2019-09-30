@@ -60,3 +60,12 @@ button:hover {
     outline: none;
     height: 100%;
 }
+
+footer {
+    text-align: center;
+    color: #FFF;
+}
+
+footer a {
+    color: #F1F227;
+}
