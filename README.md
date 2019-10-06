@@ -2,7 +2,7 @@
 SlimWhizzy is a light weight and depedency free library for adding WYSIWYG functionality to an contenteditable element. You simply create your editor
 to your liking, and then add a single function call with a few configuration items and you are in business.
 
-[Demo](http://demo.jodylecompte.com/SlimWhizzy)
+[Demo](https://slimwhizzy.jodylecompte.com/)
 
 ## Install
 
